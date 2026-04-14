@@ -1,73 +1,122 @@
-# React + TypeScript + Vite
+# Shopee Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Đây là một ứng dụng demo thương mại điện tử giả lập (Shopee clone) được xây dựng bằng `React`, `TypeScript` và `Vite`.
 
-Currently, two official plugins are available:
+## Tổng quan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ứng dụng cho phép:
 
-## React Compiler
+- xem danh sách sản phẩm
+- xem chi tiết sản phẩm
+- thêm/xóa sản phẩm khỏi giỏ hàng
+- đăng nhập và đăng ký người dùng
+- truy cập trang người dùng chỉ khi đã xác thực
+- xem hồ sơ, thay đổi mật khẩu, xem lịch sử mua hàng
+- hỗ trợ đa ngôn ngữ
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Công nghệ chính
 
-## Expanding the ESLint configuration
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router v7
+- React Query
+- i18next
+- React Hook Form
+- Zod
+- Axios
+- React Toastify
+- Vitest
+- ESLint + Prettier
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Cấu trúc thư mục chính
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- `src/pages/` — trang chính của ứng dụng
+- `src/layouts/` — layout dùng chung
+- `src/components/` — component tái sử dụng
+- `src/apis/` — gọi API và xử lý dữ liệu
+- `src/contexts/` — quản lý trạng thái toàn cục
+- `src/hooks/` — hook tùy chỉnh
+- `src/constants/` — các hằng số và đường dẫn
+- `src/utils/` — tiện ích dùng chung
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Chạy dự án
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Cài đặt
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Chạy local
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+### Build production
+
+```bash
+npm run build
+```
+
+### Preview build
+
+```bash
+npm run preview
+```
+
+## Kiểm tra chất lượng code
+
+- Kiểm tra ESLint:
+
+```bash
+npm run lint
+```
+
+- Tự động sửa ESLint:
+
+```bash
+npm run lint:fix
+```
+
+- Kiểm tra Prettier:
+
+```bash
+npm run prettier
+```
+
+- Định dạng với Prettier:
+
+```bash
+npm run prettier:fix
+```
+
+## Test
+
+- Chạy test:
+
+```bash
+npm run test
+```
+
+- Chạy test watch:
+
+```bash
+npm run test:watch
+```
+
+- Chạy test và tạo báo cáo coverage:
+
+```bash
+npm run coverage
+```
+
+## Ghi chú
+
+- `src/useRouteElement.tsx` định nghĩa các route chính và bảo vệ route cho người dùng đã đăng nhập.
+- `src/App.tsx` sử dụng `QueryClientProvider` và `ErrorBoundary` để quản lý trạng thái và xử lý lỗi.
+- `src/i18n/i18n.ts` khởi tạo cấu hình đa ngôn ngữ.
+
+---
