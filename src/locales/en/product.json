@@ -1,0 +1,11 @@
+{
+  "buyNow": "Buy now",
+  "addToCart": "Add to cart",
+  "outOfStock": "Out of stock",
+  "availableProducts": "Available products",
+  "productRating": "Product rating",
+  "quantity": "Quantity",
+  "sold": "Sold",
+  "description": "Product description",
+  "addToCartSuccess": "Product added to cart successfully"
+}

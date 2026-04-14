@@ -1,0 +1,8 @@
+{
+  "serverErrorTitle": "Lỗi Server",
+  "serverErrorMessage": "Xin lỗi, đã xảy ra lỗi không mong muốn. Vui lòng thử lại sau hoặc liên hệ hỗ trợ nếu vấn đề vẫn tiếp diễn.",
+  "goBackHome": "Về trang chủ",
+  "contactSupport": "Liên hệ hỗ trợ →",
+  "pageNotFoundTitle": "Trang không tồn tại",
+  "pageNotFoundMessage": "Xin lỗi, chúng tôi không thể tìm thấy trang bạn đang tìm kiếm."
+}

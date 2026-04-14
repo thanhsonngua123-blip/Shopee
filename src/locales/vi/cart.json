@@ -1,0 +1,19 @@
+{
+  "newlyAddedProducts": "Sản phẩm mới thêm",
+  "viewMyCart": "Xem giỏ hàng",
+  "additionalItemsInCart": "{{count}} thêm hàng vào giỏ",
+  "noProductsYet": "Chưa có sản phẩm",
+  "emptyCartTitle": "Giỏ hàng của bạn đang trống",
+  "shopNow": "Mua sắm ngay",
+  "cartTitle": "Giỏ Hàng",
+  "product": "Sản phẩm",
+  "unitPrice": "Đơn giá",
+  "quantity": "Số lượng",
+  "totalPrice": "Thành tiền",
+  "action": "Thao tác",
+  "selectAll": "Chọn tất cả",
+  "remove": "Xóa",
+  "orderTotal": "Tổng thanh toán",
+  "saving": "Tiết kiệm",
+  "buyProducts": "Mua hàng"
+}

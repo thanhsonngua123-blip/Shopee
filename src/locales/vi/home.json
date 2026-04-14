@@ -1,0 +1,19 @@
+{
+  "search": "Tìm kiếm sản phẩm...",
+  "allCategories": "Tất cả danh mục",
+  "searchFilter": "Bộ lọc tìm kiếm",
+  "sortBy": "Sắp xếp theo",
+  "popular": "Phổ biến",
+  "newest": "Mới nhất",
+  "bestSeller": "Bán chạy",
+  "priceLowToHigh": "Giá: Thấp đến cao",
+  "priceHighToLow": "Giá: Cao đến thấp",
+  "clearAll": "Xóa tất cả",
+  "priceRange": "Khoảng giá",
+  "from": "TỪ",
+  "to": "ĐẾN",
+  "rating": "Đánh giá",
+  "apply": "Áp dụng",
+  "selectPrice": "Chọn giá",
+  "noProductFound": "Không tìm thấy sản phẩm"
+}

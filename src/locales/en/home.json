@@ -1,0 +1,19 @@
+{
+  "search": "Search products...",
+  "allCategories": "All categories",
+  "searchFilter": "Search filter",
+  "sortBy": "Sort by",
+  "popular": "Popular",
+  "newest": "Newest",
+  "bestSeller": "Best seller",
+  "priceLowToHigh": "Price: Low to high",
+  "priceHighToLow": "Price: High to low",
+  "clearAll": "Clear all",
+  "priceRange": "Price range",
+  "from": "From",
+  "to": "To",
+  "rating": "Rating",
+  "apply": "Apply",
+  "selectPrice": "Select price",
+  "noProductFound": "No product found"
+}

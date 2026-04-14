@@ -1,0 +1,19 @@
+{
+  "newlyAddedProducts": "Newly added products",
+  "viewMyCart": "View my cart",
+  "additionalItemsInCart": "{{count}} more items in cart",
+  "noProductsYet": "No products yet",
+  "emptyCartTitle": "Your cart is empty",
+  "shopNow": "Shop now",
+  "cartTitle": "Cart",
+  "product": "Product",
+  "unitPrice": "Unit price",
+  "quantity": "Quantity",
+  "totalPrice": "Total price",
+  "action": "Action",
+  "selectAll": "Select all",
+  "remove": "Remove",
+  "orderTotal": "Total payment",
+  "saving": "Saving",
+  "buyProducts": "Buy products"
+}
